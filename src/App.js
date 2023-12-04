@@ -4,7 +4,7 @@ import Contact from './Component/ContactsPage'
 import Team from './Component/Team'
 import './App.css'
 import {useState} from 'react'
-import image from './img.png'
+import img from './img.png'
 function App() {
   const [first , setFirst] = useState(true);
   function main1(){
@@ -31,7 +31,7 @@ const two = (e)=>{
       <NavLink className="navbar style">
         Пингвины
       </NavLink>
-      <img onClick={two} src={image} alt='photo'/>
+      <img onClick={two} src={img} alt='photo'/>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
